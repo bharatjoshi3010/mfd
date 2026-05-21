@@ -10,7 +10,8 @@ const StoreContextProvider = (props) => {
     //we make it to store all cart details in a single Object
 
     //url of our backend
-    const url = "http://localhost:4000"         //we define it from here so we can access it from anywhere
+    const url =  "https://mfd-5cku.onrender.com"
+    // "http://localhost:4000"         //we define it from here so we can access it from anywhere
     const [token, setToken] = useState("")          //token for chceking whether user is logged in or not
     const [food_list, setFoodList] = useState([])
 
